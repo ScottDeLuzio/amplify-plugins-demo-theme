@@ -46,7 +46,7 @@ gravity_form( 1, $display_title = false, $display_description = false, $display_
 /**
  * Populate the hidden username field based on the email address entered into the email field. 
  * #input_1_2 is the email address field.
- * #input_1_1 is the username field.
+ * #input_1_1 is the username field. This field is hidden with CSS.
  * Remove from the username field anything that is not a lowercase letter (a-z), uppercase letter (A-Z), or numeric (0-9) (i.e. no special characters like @_+, etc.)
  * This will be use as the subdirectory name, which can't have any special characters.
  */
