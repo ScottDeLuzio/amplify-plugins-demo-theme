@@ -7,3 +7,66 @@ Author: Amplify Plugins
 Author URI: https://amplifyplugins.com
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	text-align:center;
+	background: #253c55;
+}
+
+h1,h2,h3{
+	font-weight:300;
+}
+p,small{
+	color:#ffffff;
+}
+h1{
+	line-height:0;
+	color: #ffffff;
+}
+a{
+	color:#3399bd;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/* Gravity Forms*/
+#field_1_1{
+    display:none;
+}
+
+.gform_button{
+width: 97.5%;
+background-image:none;
+padding:8px;
+border-radius:4px;
+border:none;
+background:#3399bd;
+color: #fff;
+font-weight: bold
+}
+.gfield_label{
+    color: #fff;
+}
+.gfield_required{
+    color: #fff !important;
+}
+.ginput_container_checkbox{
+    color: #fff;
+}
+
+input{
+    border-radius:4px;
+    border:none;
+    border:1px solid #ccc;
+}
+#testdrive-logo{
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
+#form{
+	width:500px; margin:auto;
+}
